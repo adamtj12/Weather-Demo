@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "shsearchbar",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Blackjacx/SHSearchBar",
+      "state" : {
+        "revision" : "0caa8c053f5ec481ffc8a5b31db7e8ecd326be39",
+        "version" : "2.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}

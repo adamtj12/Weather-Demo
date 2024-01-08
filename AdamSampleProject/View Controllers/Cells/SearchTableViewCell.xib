@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="blue" indentationWidth="0.0" rowHeight="64" id="kjl-al-UgW" customClass="SearchTableViewCell" customModule="AdamSampleProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="244" height="67"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kjl-al-UgW" id="50f-7j-4vd">
+                <rect key="frame" x="0.0" y="0.0" width="244" height="67"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HOA-at-bKO">
+                        <rect key="frame" x="6" y="5" width="233" height="58"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="highlightedColor" systemColor="systemRedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.30045804565024831" green="0.53763393953383565" blue="0.86078912019729614" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="HOA-at-bKO" secondAttribute="bottom" constant="4" id="Cwg-4V-0Nr"/>
+                <constraint firstItem="HOA-at-bKO" firstAttribute="top" secondItem="kjl-al-UgW" secondAttribute="top" constant="5" id="ESM-FI-uX0"/>
+                <constraint firstItem="HOA-at-bKO" firstAttribute="leading" secondItem="kjl-al-UgW" secondAttribute="leading" constant="6" id="OIn-eM-QXt"/>
+                <constraint firstAttribute="trailing" secondItem="HOA-at-bKO" secondAttribute="trailing" constant="5" id="Y5E-oJ-xG8"/>
+            </constraints>
+            <connections>
+                <outlet property="titleLabel" destination="HOA-at-bKO" id="bvW-Ui-GVa"/>
+            </connections>
+            <point key="canvasLocation" x="-323.1884057971015" y="365.95982142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
