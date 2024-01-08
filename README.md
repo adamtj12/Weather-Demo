@@ -1,4 +1,4 @@
-# AJ-DemoApp
+# AJ-DemoApp - Weather-Demo
  
 To open project, simply press the .xcodeproj file and the whole project should be runnable. There are some sample tests testing basic logic as well.
 
